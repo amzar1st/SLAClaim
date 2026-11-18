@@ -8,7 +8,9 @@ repository or snapshot files. The monitors should be operated independently.
 
 Deploy `contracts/slaclaim.py` in https://studio-next.genlayer.com/ with no
 constructor arguments. Record the returned contract address and network.
-This project does not include a fabricated deployment address.
+The deployed hosted Studio instance is listed in the README and in
+`deployments/studionet.json`; its constructor completed successfully and Studio
+reported FINALIZED. This is a Studio sandbox deployment, not Bradbury.
 
 `examples/policy.json` is a synthetic December 2026 policy. Replace customer and
 monitor addresses with your actual accounts and the service with your public
@@ -77,5 +79,5 @@ evidence and configured validator LLM providers.
 
 Run `genvm-lint check`, the tests and demo first. Deploy and exercise the intended
 network separately; local direct mode cannot prove network finality, validator
-availability, endpoint reachability or real LLM agreement. No deployed network
-contract is claimed by this repository.
+availability, endpoint reachability or real LLM agreement. The hosted deployment verifies constructor execution
+and finality only; no monthly outage claim has yet been adjudicated on that instance.

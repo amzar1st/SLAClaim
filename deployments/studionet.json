@@ -1,0 +1,18 @@
+{
+  "environment": "Hosted GenLayer Studio (Studionet)",
+  "studio_url": "https://studio.genlayer.com/",
+  "contract_address": "0x55d0eAb05ae9458C05fe339ff57a3E4b8C93B122",
+  "explorer_url": "https://explorer-studio.genlayer.com/address/0x55d0eAb05ae9458C05fe339ff57a3E4b8C93B122",
+  "deployment_transaction": "0x8365f08c7265aadbe77db914c9df5efa13950cc54eb15a1a1a03f52433eeec86",
+  "deployer": "0xd410A16A05022918E5F8FBC0f4aCBA41AD86F00C",
+  "account_type": "Studio built-in account",
+  "execution_mode": "Normal (Full Consensus)",
+  "constructor_args": [],
+  "constructor_execution": "SUCCESS (Explorer)",
+  "transaction_status": "FINALIZED (Studio)",
+  "deployment_date": "2026-11-18",
+  "source_commit": "d0f0ea68df77e79f045e1ee2a0149587044ad742",
+  "source_file": "contracts/slaclaim.py",
+  "source_sha256": "25ba9a840bc6b35c1ee937e2756dd0f69eaf4716a9795e7c632d823f5dae3a7e",
+  "scope": "Constructor deployment only; no monthly claim adjudicated on this instance. Studio sandbox state can be reset."
+}

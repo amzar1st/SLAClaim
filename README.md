@@ -13,6 +13,23 @@ This MVP settles **service-credit units recorded on chain**. It does not hold GE
 transfer tokens, or certify legal compliance. A credit is an accounting entitlement
 against the named provider, redeemable outside this contract.
 
+## Hosted Studio deployment
+
+Deployed on **18 November 2026** using Studio's built-in account in
+**Normal (Full Consensus)** mode, with no constructor arguments.
+
+- [Explorer contract](https://explorer-studio.genlayer.com/address/0x55d0eAb05ae9458C05fe339ff57a3E4b8C93B122)
+- Contract: `0x55d0eAb05ae9458C05fe339ff57a3E4b8C93B122`
+- Deployment transaction: `0x8365f08c7265aadbe77db914c9df5efa13950cc54eb15a1a1a03f52433eeec86`
+- Constructor execution: **SUCCESS** in Explorer; transaction **FINALIZED** in Studio.
+- [Deployment record](deployments/studionet.json)
+
+This is the hosted Studio sandbox (Studionet), not a Bradbury testnet deployment.
+The deployed source is visible under Explorer's Contract tab. The deployment
+verifies constructor execution and finality; monthly outage adjudication has
+not yet been exercised on this instance. Local claim scenarios use mocked
+monitoring and AI responses. Studio state can be reset.
+
 ## Run locally
 
 Python 3.12 is required. No wallet, RPC, API key, or paid service is needed for the demo.
