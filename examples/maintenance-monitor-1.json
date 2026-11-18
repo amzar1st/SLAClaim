@@ -1,0 +1,27 @@
+{
+  "schema": "slaclaim/v1",
+  "service": "https://api.example.com/health",
+  "monitor": "0x3333333333333333333333333333333333333333",
+  "start": 1796083200,
+  "end": 1798761600,
+  "records": [
+    {
+      "start": 1796083200,
+      "end": 1796090400,
+      "status": "up",
+      "notes": "Healthy"
+    },
+    {
+      "start": 1796090400,
+      "end": 1796094000,
+      "status": "down",
+      "notes": "Scheduled database upgrade observed; matches announced maintenance."
+    },
+    {
+      "start": 1796094000,
+      "end": 1798761600,
+      "status": "up",
+      "notes": "Recovered"
+    }
+  ]
+}

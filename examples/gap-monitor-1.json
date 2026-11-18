@@ -1,0 +1,15 @@
+{
+  "schema": "slaclaim/v1",
+  "service": "https://api.example.com/health",
+  "monitor": "0x3333333333333333333333333333333333333333",
+  "start": 1796083200,
+  "end": 1798761600,
+  "records": [
+    {
+      "start": 1796083260,
+      "end": 1798761600,
+      "status": "up",
+      "notes": "First minute missing"
+    }
+  ]
+}

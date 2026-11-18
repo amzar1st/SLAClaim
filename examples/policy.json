@@ -1,0 +1,21 @@
+{
+  "service": "https://api.example.com/health",
+  "customer": "0x2222222222222222222222222222222222222222",
+  "monitors": [
+    "0x3333333333333333333333333333333333333333",
+    "0x4444444444444444444444444444444444444444"
+  ],
+  "start": 1796083200,
+  "end": 1798761600,
+  "target_ppm": 999000,
+  "credit_units": 100,
+  "evidence_grace": 86400,
+  "exclusion_policy": "Only preannounced maintenance corroborated by both monitors is excluded.",
+  "maintenance": [
+    {
+      "start": 1796090400,
+      "end": 1796094000,
+      "notice": "Scheduled database upgrade announced before the period."
+    }
+  ]
+}

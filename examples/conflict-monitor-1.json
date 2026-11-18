@@ -1,0 +1,21 @@
+{
+  "schema": "slaclaim/v1",
+  "service": "https://api.example.com/health",
+  "monitor": "0x3333333333333333333333333333333333333333",
+  "start": 1796083200,
+  "end": 1798761600,
+  "records": [
+    {
+      "start": 1796083200,
+      "end": 1796086800,
+      "status": "down",
+      "notes": "Connection timeout; unscheduled outage"
+    },
+    {
+      "start": 1796086800,
+      "end": 1798761600,
+      "status": "up",
+      "notes": "Recovered"
+    }
+  ]
+}
